@@ -77,5 +77,5 @@ colormap jet; shading interp; axis tight;
 view([45, 30]); title(['Experiment']);
 yticks([1 2 3 4 5]);
 yticklabels({'100','101','102','103', '104'});
-xlabel('Signal'); ylabel('Idler'); zlabel('Counts');
+xlabel('Signal'); ylabel('Idler'); zlabel('Counts')
 

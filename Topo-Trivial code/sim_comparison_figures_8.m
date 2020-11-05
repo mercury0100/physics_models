@@ -58,8 +58,8 @@ for k = 1:length(b)
 end
 
 colormap jet; shading interp; axis tight;
-view([45, 30]); title(['Simulation']);
-xlabel('Signal'); ylabel('Idler'); zlabel('Power (normalised)');
+view([45, 30]);% title(['Simulation']);
+%xlabel('Signal'); ylabel('Idler'); zlabel('Power (normalised)');
 % saveas(4, [prefix, 'barplot'], 'fig');
 % saveas(4, [prefix, 'barplot'], 'png');
 
@@ -74,8 +74,8 @@ for k = 1:length(b)
 end
 
 colormap jet; shading interp; axis tight;
-view([45, 30]); title(['Experiment']);
+view([45, 30]);% title(['Experiment']);
 yticks([1 2 3 4 5]);
 yticklabels({'100','101','102','103', '104'});
-xlabel('Signal'); ylabel('Idler'); zlabel('Counts');
+%xlabel('Signal'); ylabel('Idler'); zlabel('Counts');
 
